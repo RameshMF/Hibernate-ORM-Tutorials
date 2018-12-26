@@ -1,0 +1,5 @@
+net\javaguides\hibernate\entity\Student.class
+net\javaguides\hibernate\App.class
+net\javaguides\hibernate\dao\StudentDao.class
+net\javaguides\hibernate\util\HibernateUtil.class
+net\javaguides\hibernate\dao\SessionSaveExample.class

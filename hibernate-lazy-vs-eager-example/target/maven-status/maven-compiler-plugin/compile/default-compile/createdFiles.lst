@@ -1,0 +1,8 @@
+net\javaguides\hibernate\dao\CourseDao.class
+net\javaguides\hibernate\dao\InstructorDao.class
+net\javaguides\hibernate\ManApp.class
+net\javaguides\hibernate\entity\Instructor.class
+net\javaguides\hibernate\dao\InstructorDetailDao.class
+net\javaguides\hibernate\entity\InstructorDetail.class
+net\javaguides\hibernate\entity\Course.class
+net\javaguides\hibernate\util\HibernateUtil.class

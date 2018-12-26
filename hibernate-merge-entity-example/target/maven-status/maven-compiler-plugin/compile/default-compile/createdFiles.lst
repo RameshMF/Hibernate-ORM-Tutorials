@@ -1,0 +1,3 @@
+net\javaguides\hibernate\entity\Student.class
+net\javaguides\hibernate\App.class
+net\javaguides\hibernate\util\HibernateUtil.class

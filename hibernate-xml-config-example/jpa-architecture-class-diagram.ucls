@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.2" icons="true" automaticImage="PNG" always-add-relationships="false" generalizations="true" 
+  realizations="true" associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <interface id="1" language="java" name="javax.persistence.EntityManagerFactory" 
+    project="hibernate-inheritance-tableperclass" 
+    file="C:/Users/gs-1787/.m2/repository/javax/persistence/javax.persistence-api/2.2/javax.persistence-api-2.2.jar" 
+    binary="true" corner="BOTTOM_RIGHT">    
+    <position height="58" width="328" x="-31" y="-179"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="2" language="java" name="javax.persistence.EntityManager" project="hibernate-inheritance-tableperclass" 
+    file="C:/Users/gs-1787/.m2/repository/javax/persistence/javax.persistence-api/2.2/javax.persistence-api-2.2.jar" 
+    binary="true" corner="BOTTOM_RIGHT">    
+    <position height="59" width="328" x="-29" y="-59"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="3" language="java" name="javax.persistence.Query" project="hibernate-inheritance-tableperclass" 
+    file="C:/Users/gs-1787/.m2/repository/javax/persistence/javax.persistence-api/2.2/javax.persistence-api-2.2.jar" 
+    binary="true" corner="BOTTOM_RIGHT">    
+    <position height="59" width="289" x="396" y="-58"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="4" language="java" name="javax.persistence.Persistence" project="hibernate-inheritance-tableperclass" 
+    file="C:/Users/gs-1787/.m2/repository/javax/persistence/javax.persistence-api/2.2/javax.persistence-api-2.2.jar" 
+    binary="true" corner="BOTTOM_RIGHT">    
+    <position height="55" width="298" x="401" y="59"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="5" language="java" name="javax.persistence.EntityTransaction" 
+    project="hibernate-inheritance-tableperclass" 
+    file="C:/Users/gs-1787/.m2/repository/javax/persistence/javax.persistence-api/2.2/javax.persistence-api-2.2.jar" 
+    binary="true" corner="BOTTOM_RIGHT">    
+    <position height="57" width="280" x="401" y="-175"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <annotation id="6" language="java" name="javax.persistence.Entity" project="hibernate-inheritance-tableperclass" 
+    file="C:/Users/gs-1787/.m2/repository/javax/persistence/javax.persistence-api/2.2/javax.persistence-api-2.2.jar" 
+    binary="true" corner="BOTTOM_RIGHT">    
+    <position height="81" width="319" x="-13" y="91"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </annotation>  
+  <dependency id="7">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="1"/>  
+  </dependency>  
+  <dependency id="8">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="5"/>  
+  </dependency>  
+  <dependency id="9">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="3"/>  
+  </dependency>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
