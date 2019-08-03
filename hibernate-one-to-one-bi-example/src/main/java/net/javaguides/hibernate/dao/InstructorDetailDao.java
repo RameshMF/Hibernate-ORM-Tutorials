@@ -3,7 +3,6 @@ package net.javaguides.hibernate.dao;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
 
-import net.javaguides.hibernate.entity.Instructor;
 import net.javaguides.hibernate.entity.InstructorDetail;
 import net.javaguides.hibernate.util.HibernateUtil;
 

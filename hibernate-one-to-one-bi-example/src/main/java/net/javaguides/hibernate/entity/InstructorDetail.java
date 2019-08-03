@@ -1,34 +1,36 @@
 package net.javaguides.hibernate.entity;
 
-import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.JoinColumn;
 import javax.persistence.OneToOne;
 import javax.persistence.Table;
 
 @Entity
-@Table(name="instructor_detail")
+@Table(name = "instructor_detail")
 public class InstructorDetail {
-	
+
 	@Id
-	@GeneratedValue(strategy=GenerationType.IDENTITY)
-	@Column(name="id")
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	@Column(name = "id")
 	private int id;
-	
-	@Column(name="youtube_channel")
+
+	@Column(name = "youtube_channel")
 	private String youtubeChannel;
-	
-	@Column(name="hobby")
+
+	@Column(name = "hobby")
 	private String hobby;
-	
-	@OneToOne(mappedBy="instructorDetail", cascade=CascadeType.ALL)
+
+	@OneToOne(fetch = FetchType.LAZY)
+	@JoinColumn(name = "instructor_id")
 	private Instructor instructor;
-	
+
 	public InstructorDetail() {
-		
+
 	}
 
 	public InstructorDetail(String youtubeChannel, String hobby) {
@@ -59,7 +61,7 @@ public class InstructorDetail {
 	public void setHobby(String hobby) {
 		this.hobby = hobby;
 	}
-	
+
 	public Instructor getInstructor() {
 		return instructor;
 	}
@@ -73,10 +75,3 @@ public class InstructorDetail {
 		return "InstructorDetail [id=" + id + ", youtubeChannel=" + youtubeChannel + ", hobby=" + hobby + "]";
 	}
 }
-
-
-
-
-
-
-
