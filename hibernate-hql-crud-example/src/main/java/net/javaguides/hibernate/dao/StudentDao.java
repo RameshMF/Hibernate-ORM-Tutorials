@@ -1,5 +1,6 @@
 package net.javaguides.hibernate.dao;
 
+import java.io.Serializable;
 import java.util.List;
 
 import javax.persistence.Query;
@@ -18,7 +19,11 @@ public class StudentDao {
 			// start a transaction
 			transaction = session.beginTransaction();
 			
-			session.save(student);
+			// operation 1
+			Object object = session.save(student);
+			
+			// operation 2
+			session.get(Student.class, (Serializable) object);
 			
 			// commit transaction
 			transaction.commit();

@@ -1,24 +1,18 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-	
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>net.javaguides</groupId>
-	<artifactId>hibernate-java-config-example</artifactId>
+	<artifactId>hibernate-hsqldb-example</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>hibernate-java-config-example</name>
-	<description>hibernate-java-config-example</description>
-	
-	<properties>
-		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-	</properties>
-
+	<name>hibernate-hsqldb-example</name>
+	<description>hibernate-hsqldb-example</description>
 	<dependencies>
-		<!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
+		<!-- https://mvnrepository.com/artifact/org.hsqldb/hsqldb -->
 		<dependency>
-			<groupId>mysql</groupId>
-			<artifactId>mysql-connector-java</artifactId>
-			<version>8.0.13</version>
+			<groupId>org.hsqldb</groupId>
+			<artifactId>hsqldb</artifactId>
+			<version>2.4.0</version>
 		</dependency>
 
 		<!-- https://mvnrepository.com/artifact/org.hibernate/hibernate-core -->
@@ -27,9 +21,7 @@
 			<artifactId>hibernate-core</artifactId>
 			<version>5.3.7.Final</version>
 		</dependency>
-
 	</dependencies>
-
 	<build>
 		<sourceDirectory>src/main/java</sourceDirectory>
 		<plugins>
