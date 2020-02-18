@@ -19,12 +19,12 @@ This tutorial is designed for all those Java programmers who would like to under
 <div style="text-align: left;">
 </div>
 <ul style="text-align: left;">
-<li><a href="http://www.javaguides.net/2018/11/hibernate-framework-overview-architecture-bascis.html" target="_blank">Hibernate Framework Overview - Architecture and Basics</a>&nbsp;- In this article, b<span style="background-color: white; color: #24292e; font-family: , &quot;blinkmacsystemfont&quot; , &quot;segoe ui&quot; , &quot;helvetica&quot; , &quot;arial&quot; , sans-serif , &quot;apple color emoji&quot; , &quot;segoe ui emoji&quot; , &quot;segoe ui symbol&quot;; font-size: 16px;">efore getting started with Hibernate framework, let's familiar with a few basic concepts of the hibernate framework, it's architecture, it's benefits and advantages over JDBC etc.</span></li>
+<li><a href="http://www.javaguides.net/2018/11/hibernate-framework-overview-architecture-bascis.html" target="_blank">Hibernate Framework Overview - Architecture and Basics</a>&nbsp;- In this article, b<span style="background-color: white; color: #24292e; font-family: , &quot;blinkmacsystemfont&quot; , &quot;segoe ui&quot; , &quot;helvetica&quot; , &quot;arial&quot; , sans-serif , &quot;apple color emoji&quot; , &quot;segoe ui emoji&quot; , &quot;segoe ui symbol&quot;; font-size: 16px;">efore getting started with the Hibernate framework, let's get familiar with a few basic concepts of the Hibernate framework, its architecture, its benefits and advantages over JDBC etc.</span></li>
 </ul>
 <div style="text-align: left;">
 </div>
 <ul style="text-align: left;">
-<li><a href="http://www.javaguides.net/2018/11/hibernate-hello-world-tutorial.html">Hibernate 5 - Hello World Tutorial</a>&nbsp;- In this Hibernate hello world tutorial, we will show you how to create a Hibernate Application to connect MySQL database.</li>
+<li><a href="http://www.javaguides.net/2018/11/hibernate-hello-world-tutorial.html">Hibernate 5 - Hello World Tutorial</a>&nbsp;- In this Hibernate hello world tutorial, we will show you how to create a Hibernate Application to connect to a MySQL database.</li>
 </ul>
 <ul style="text-align: left;">
 <li><a href="http://www.javaguides.net/2018/12/hibernate-transaction-management-tutorial.html" target="_blank">Hibernate Transaction Management Tutorial</a>&nbsp;- In this tutorial, we will learn how to manage transactions in Hibernate applications.</li>
@@ -37,10 +37,10 @@ This tutorial is designed for all those Java programmers who would like to under
 <div style="text-align: left;">
 </div>
 <ul style="text-align: left;">
-<li><a href="http://www.javaguides.net/2018/11/hibernate-5-xml-configuration-example.html" style="font-family: inherit;">Hibernate 5 XML Configuration Example</a><span style="font-family: inherit;"> - In this article, we will show you how to create a Hibernate Application using hibernate.cfg.xml configuration to connect MySQL database.</span></li>
+<li><a href="http://www.javaguides.net/2018/11/hibernate-5-xml-configuration-example.html" style="font-family: inherit;">Hibernate 5 XML Configuration Example</a><span style="font-family: inherit;"> - In this article, we will show you how to create a Hibernate Application using hibernate.cfg.xml configuration to connect to a MySQL database.</span></li>
 </ul>
 <ul style="text-align: left;">
-<li><a href="http://www.javaguides.net/2018/11/hibernate-5-java-configuration-example.html" style="font-family: inherit;">Hibernate 5 Java Configuration Example</a><span style="font-family: inherit;"> - In this article, we will show you how to create a Hibernate Application using Java configuration without using hibernate.cfg.xml to connect MySQL database.</span></li>
+<li><a href="http://www.javaguides.net/2018/11/hibernate-5-java-configuration-example.html" style="font-family: inherit;">Hibernate 5 Java Configuration Example</a><span style="font-family: inherit;"> - In this article, we will show you how to create a Hibernate Application using Java configuration without using hibernate.cfg.xml to connect to a MySQL database.</span></li>
 </ul>
 <ul style="text-align: left;">
 <li><a href="http://www.javaguides.net/2018/11/hibernate-configurations-quick-references.html" style="font-family: inherit; font-size: 16px;" target="_blank">Hibernate Configurations Quick References [Snippets]</a><span style="background-color: white; color: #24292e; font-family: inherit; font-size: 16px;">&nbsp;-&nbsp;</span><span style="color: #24292e; font-family: inherit; font-size: 16px;">This post is&nbsp;a quick</span><span style="color: #24292e; font-family: inherit; font-size: 16px;">&nbsp;reference to Hibernate XML or Java-based configuration.</span></li>
@@ -131,7 +131,7 @@ This tutorial is designed for all those Java programmers who would like to under
 <li><a href="http://www.javaguides.net/2018/11/hibernate-5-hql-crud-example-snippets.html">Hibernate 5 - HQL CRUD Example [Snippets]</a> - In this article, we will see quick snippets or examples of Hibernate 5 HQL CRUD Example.</li>
 </ul>
 <ul style="text-align: left;">
-<li><a href="http://www.javaguides.net/2018/11/hibernate-5-named-query-tutorial-with-examples.html">Hibernate 5 Named Query Tutorial with Examples</a> - This tutorial shows you how to use the named queries annotations in hibernation application.</li>
+<li><a href="http://www.javaguides.net/2018/11/hibernate-5-named-query-tutorial-with-examples.html">Hibernate 5 Named Query Tutorial with Examples</a> - This tutorial shows you how to use named query annotations in Hibernate applications.</li>
 </ul>
 <div class="font-family-page">
 <h2 style="text-align: left;">
@@ -153,7 +153,7 @@ This tutorial is designed for all those Java programmers who would like to under
 <div style="text-align: left;">
 </div>
 <ul style="text-align: left;">
-<li><span style="background-color: white; color: #24292e; font-family: inherit; font-size: 16px;"><a href="http://www.javaguides.net/2018/11/guide-to-hibernate-5-schema-generation.html" target="_blank">Guide to Hibernate 5 Schema Generation</a>&nbsp;-&nbsp;</span><span style="background-color: white; color: #24292e; font-family: inherit; font-size: 16px;">In this guide, You will learn how does Hibernate allows you to generate the database from the entity mappings. In this guide, we will following&nbsp;points.</span></li>
+<li><span style="background-color: white; color: #24292e; font-family: inherit; font-size: 16px;"><a href="http://www.javaguides.net/2018/11/guide-to-hibernate-5-schema-generation.html" target="_blank">Guide to Hibernate 5 Schema Generation</a>&nbsp;-&nbsp;</span><span style="background-color: white; color: #24292e; font-family: inherit; font-size: 16px;">In this guide, You will learn how Hibernate allows you to generate the database from the entity mappings. In this guide, we will illustrate the  following&nbsp;points.</span></li>
 </ul>
 <ul style="text-align: left;">
 <li><span style="background-color: white; color: #24292e; font-family: inherit; font-size: 16px;"><a href="http://www.javaguides.net/2018/11/guide-to-hibernate-native-sql-queries.html" target="_blank">Guide to Hibernate Native SQL Queries</a>&nbsp;-&nbsp;</span><span style="background-color: white; color: #24292e; font-family: inherit; font-size: 16px;">Let's learn more about Hibernate native SQL queries with examples snippets.</span></li>
